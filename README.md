@@ -1,9 +1,12 @@
-# Fabric Example Mod
+# Fireflallay Mod
+Did you not notice that mojang added the fireflies? No? Well, try giving a torch to an Allay and see what happens! 
+
+This mod introduces a new mob called the Fireflally, a lit up Allay which behaves the same as the normal allay but it's orange and can be eaten by the frogs. For some strange reason, it does not kill them but instead gives them Regeneration IV for 5 seconds. Also the frog then produces a something.
 
 ## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Download the mod from Modrinth or CurseForge and drop it inside the the /mods/ folder. (works only with Fabric and requires Fabric API)
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This mod is available under the GNU LGPL3 license. 
