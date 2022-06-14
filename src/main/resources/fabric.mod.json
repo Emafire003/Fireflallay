@@ -1,29 +1,33 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fireflallymod",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Fireflallay Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Emafire003"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Emafire003/Fireflallay",
+    "sources": "https://github.com/Emafire003/Fireflallay",
+    "issues": "https://github.com/Emafire003/Fireflallay/issues"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GNU LGPL3",
+  "icon": "assets/fireflallaymod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.emafire003.dev.fireflallaymod.FireflallayMod"
+    ],
+    "client": [
+      "me.emafire003.dev.fireflallaymod.FireflallayClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "fireflallaymod.mixins.json"
   ],
 
   "depends": {
