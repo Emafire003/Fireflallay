@@ -11,6 +11,7 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.entity.ai.brain.sensor.FrogAttackablesSensor;
 import net.minecraft.entity.ai.brain.task.FrogEatEntityTask;
+import net.minecraft.entity.mob.EndermanEntity;
 import net.minecraft.entity.mob.MagmaCubeEntity;
 import net.minecraft.entity.passive.FrogEntity;
 import net.minecraft.item.FoodComponent;
@@ -33,7 +34,7 @@ public class FireflallayMod implements ModInitializer {
     public static final EntityType<FireflallayEntity> FIREFLALLAY = Registry.register(
             Registry.ENTITY_TYPE,
             new Identifier(MOD_ID, "fireflallay"),
-            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, FireflallayEntity::new).dimensions(EntityDimensions.fixed(0.6f, 0.6f)).build()
+            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, FireflallayEntity::new).dimensions(EntityDimensions.fixed(0.37f, 0.6f)).build()
     );
 
     public static final Item FIREFLALLAY_SPAWN_EGG = new SpawnEggItem(FIREFLALLAY, 15239978, 15255082, new Item.Settings().group(ItemGroup.MISC));

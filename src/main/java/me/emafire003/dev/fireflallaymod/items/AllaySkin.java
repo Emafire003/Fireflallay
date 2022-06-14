@@ -36,7 +36,7 @@ public class AllaySkin extends Item {
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
         if(user instanceof ServerPlayerEntity){
             user.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 10*20, 2));
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 5*20, 1));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 8*20, 0));
         }
         return this.isFood() ? user.eatFood(world, stack) : stack;
     }
