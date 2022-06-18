@@ -2,6 +2,8 @@ package me.emafire003.dev.fireflallaymod;
 
 import me.emafire003.dev.fireflallaymod.entities.FireflallayEntity;
 import me.emafire003.dev.fireflallaymod.items.AllaySkin;
+import me.emafire003.dev.fireflallaymod.items.ColdAllaySkin;
+import me.emafire003.dev.fireflallaymod.items.FireflallaySkin;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
@@ -9,11 +11,6 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
-import net.minecraft.entity.ai.brain.sensor.FrogAttackablesSensor;
-import net.minecraft.entity.ai.brain.task.FrogEatEntityTask;
-import net.minecraft.entity.mob.EndermanEntity;
-import net.minecraft.entity.mob.MagmaCubeEntity;
-import net.minecraft.entity.passive.FrogEntity;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -41,6 +38,15 @@ public class FireflallayMod implements ModInitializer {
     public static final Item ALLAY_SKIN = registerItem("allay_skin",
             new AllaySkin(new FabricItemSettings().rarity(Rarity.RARE)
                     .food(new FoodComponent.Builder().alwaysEdible().hunger(2).build()).maxCount(16).group(ItemGroup.FOOD)));
+
+    public static final Item FIREFLALLAY_SKIN = registerItem("fireflallay_skin",
+            new FireflallaySkin(new FabricItemSettings().rarity(Rarity.RARE)
+                    .food(new FoodComponent.Builder().alwaysEdible().hunger(2).build()).maxCount(16).group(ItemGroup.FOOD)));
+
+    public static final Item COLD_ALLAY_SKIN = registerItem("cold_allay_skin",
+            new ColdAllaySkin(new FabricItemSettings().rarity(Rarity.RARE)
+                    .food(new FoodComponent.Builder().alwaysEdible().hunger(2).build()).maxCount(16).group(ItemGroup.FOOD)));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(MOD_ID, name), item);

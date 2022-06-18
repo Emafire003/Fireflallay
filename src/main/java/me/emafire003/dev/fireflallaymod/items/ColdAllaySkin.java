@@ -15,8 +15,8 @@ import net.minecraft.world.World;
 //Fairy of the snow/north: it can be made out of a Totem of Undying, Fireflally Skin, Allay skin, Cold allay skin
 //spawns only in cold biomes and it proviedes a resistance boost (small) to players nearby
 
-public class AllaySkin extends Item {
-    public AllaySkin(Settings settings) {
+public class ColdAllaySkin extends Item {
+    public ColdAllaySkin(Settings settings) {
         super(settings);
     }
 
@@ -35,10 +35,12 @@ public class AllaySkin extends Item {
         }
     }
 
+
+    //Slow falling because is similar to snow falling and it's cold and dropped frog a cold frog. Eheh.
     @Override
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
         if(user instanceof ServerPlayerEntity){
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 10*20, 2));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 8*20, 2));
             user.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 8*20, 0));
         }
         return this.isFood() ? user.eatFood(world, stack) : stack;
