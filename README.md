@@ -31,7 +31,7 @@ Well no, it gets mostly digested and its skin is dropped upon being eaten. It ge
 https://youtu.be/ZeO6jkkLl-U
 
 ### Different drops video
-Coming...
+https://youtu.be/tyOZNwxo9IA
 
 ## Setup
 
