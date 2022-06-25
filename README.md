@@ -22,11 +22,16 @@ Long answer: They get hungry and prepare their tongues for a meal, that unlike t
 
 ## Is the allay safe in the frog's stomach?
 
-Well no, it gets mostly digested and its skin is dropped upon being eaten. It gets cooled down too tho! You can eat its skin as well, although you should prepare for a nauseating small flight upwards. 
-![2022-06-14_12 42 38](https://user-images.githubusercontent.com/29462910/173559420-08fd0710-2fd3-4c64-8caf-cd3cf1d4629f.png)
+Well no, it gets mostly digested and its skin is dropped upon being eaten. It gets cooled down too tho! You can eat its skin as well, although you should prepare for a nauseating small flight upwards or somthing simlar. Surely nauseauting. 
+![allay_skin](https://user-images.githubusercontent.com/29462910/174439074-cff6f19f-5594-4fc1-9aaa-41c61328470e.png)
+![cold_allay_skin](https://user-images.githubusercontent.com/29462910/174439076-669e4795-e138-4dda-abb3-1cdf0d39eece.png)
+![fireflallay_skin](https://user-images.githubusercontent.com/29462910/174439077-5f3b3ee4-1d09-4fd7-b8ec-1c6084018d56.png)
 
-### Full demo video
+### Full demo video (1.0.0 version, now the drops are frog dependent)
 https://youtu.be/ZeO6jkkLl-U
+
+### Different drops video
+https://youtu.be/tyOZNwxo9IA
 
 ## Setup
 
