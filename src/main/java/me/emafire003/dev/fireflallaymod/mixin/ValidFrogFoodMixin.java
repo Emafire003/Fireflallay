@@ -1,6 +1,6 @@
 package me.emafire003.dev.fireflallaymod.mixin;
 
-import me.emafire003.dev.fireflallaymod.entities.FireflallayEntity;
+import me.emafire003.dev.fireflallaymod.entities.fireflallay.FireflallayEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.passive.FrogEntity;
 import org.spongepowered.asm.mixin.Mixin;

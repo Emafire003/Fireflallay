@@ -1,4 +1,4 @@
-package me.emafire003.dev.fireflallaymod.entities;
+package me.emafire003.dev.fireflallaymod.entities.fireflallay;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;

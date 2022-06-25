@@ -1,6 +1,10 @@
 {
   "item.fireflallaymod.fireflallay_spawn_egg": "Uovo di Fireflallay",
+  "item.fireflallaymod.frostfairy_spawn_totem": "Totem di Frostfairy",
   "item.fireflallaymod.allay_skin": "Pelle di Allay",
   "item.fireflallaymod.fireflallay_skin": "Pelle di Fireflallay",
-  "item.fireflallaymod.cold_allay_skin": "Pelle fredda di Allay"
+  "item.fireflallaymod.cold_allay_skin": "Pelle fredda di Allay",
+  "item.fireflallaymod.allay_respawn_totem": "Totem dela rinascita di Allay",
+  "item.fireflallaymod.fireflallay_respawn_totem": "Totem dela rinascita di Fireflallay",
+  "text.fireflallaymod.cant_spawn_here": "Non evocare qui la creatura, ma in più algido posto!"
 }

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "fireflallaymod:allay_skin"
+    },
+    "F": {
+      "item": "fireflallaymod:fireflallay_skin"
+    },
+    "C": {
+      "item": "fireflallaymod:cold_allay_skin"
+    },
+    "T": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "E": {
+      "item": "minecraft:echo_shard"
+    },
+    "#": {
+      "item": "minecraft:emerald"
+    },
+    "S": {
+      "item": "minecraft:snowball"
+    }
+  },
+  "pattern": [
+    "#A#",
+    "FTC",
+    "ESE"
+  ],
+  "result": {
+    "item": "fireflallaymod:frostfairy_spawn_totem"
+  }
+}

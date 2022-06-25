@@ -6,7 +6,8 @@
   "mixins": [
     "AllayGetsTorchMixin",
     "ValidFrogFoodMixin",
-    "FrogEatsFireflallayMixin"
+    "FrogEatsFireflallayMixin",
+    "SnowballDamageMixin"
   ],
   "injectors": {
     "defaultRequire": 1

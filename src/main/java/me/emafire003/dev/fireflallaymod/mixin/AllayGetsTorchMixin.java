@@ -1,7 +1,7 @@
 package me.emafire003.dev.fireflallaymod.mixin;
 
 import me.emafire003.dev.fireflallaymod.FireflallayMod;
-import me.emafire003.dev.fireflallaymod.entities.FireflallayEntity;
+import me.emafire003.dev.fireflallaymod.entities.fireflallay.FireflallayEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.passive.AllayEntity;
 import net.minecraft.entity.player.PlayerEntity;

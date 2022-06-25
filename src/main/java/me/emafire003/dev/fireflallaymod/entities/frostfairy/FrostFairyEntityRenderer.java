@@ -1,4 +1,4 @@
-package me.emafire003.dev.fireflallaymod.entities;
+package me.emafire003.dev.fireflallaymod.entities.frostfairy;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -12,19 +12,19 @@ import net.minecraft.util.math.BlockPos;
 import static me.emafire003.dev.fireflallaymod.FireflallayMod.MOD_ID;
 
 @Environment(EnvType.CLIENT)
-public class FireflallayEntityRenderer extends MobEntityRenderer<FireflallayEntity, FireflallayEntityModel> {
-    private static final Identifier TEXTURE = new Identifier(MOD_ID, "textures/entity/fireflallay/fireflallay.png");
+public class FrostFairyEntityRenderer extends MobEntityRenderer<FrostFairyEntity, FrostFairyEntityModel> {
+    private static final Identifier TEXTURE = new Identifier(MOD_ID, "textures/entity/frostfairy/frostfairy.png");
 
-    public FireflallayEntityRenderer(EntityRendererFactory.Context context) {
-        super(context, new FireflallayEntityModel(context.getPart(EntityModelLayers.ALLAY)), 0.4F);
+    public FrostFairyEntityRenderer(EntityRendererFactory.Context context) {
+        super(context, new FrostFairyEntityModel(context.getPart(EntityModelLayers.ALLAY)), 0.4F);
         this.addFeature(new HeldItemFeatureRenderer(this, context.getHeldItemRenderer()));
     }
 
-    public Identifier getTexture(FireflallayEntity allayEntity) {
+    public Identifier getTexture(FrostFairyEntity allayEntity) {
         return TEXTURE;
     }
 
-    protected int getBlockLight(FireflallayEntity allayEntity, BlockPos blockPos) {
+    protected int getBlockLight(FrostFairyEntity allayEntity, BlockPos blockPos) {
         return 15;
     }
 }

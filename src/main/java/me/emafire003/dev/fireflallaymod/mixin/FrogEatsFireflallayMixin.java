@@ -1,6 +1,6 @@
 package me.emafire003.dev.fireflallaymod.mixin;
 
-import me.emafire003.dev.fireflallaymod.entities.FireflallayEntity;
+import me.emafire003.dev.fireflallaymod.entities.fireflallay.FireflallayEntity;
 import net.minecraft.entity.ai.brain.task.FrogEatEntityTask;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;

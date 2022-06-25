@@ -1,7 +1,9 @@
 package me.emafire003.dev.fireflallaymod;
 
-import me.emafire003.dev.fireflallaymod.entities.FireflallayEntityRenderer;
-import me.emafire003.dev.fireflallaymod.entities.FireflallayEntityModel;
+import me.emafire003.dev.fireflallaymod.entities.fireflallay.FireflallayEntityRenderer;
+import me.emafire003.dev.fireflallaymod.entities.fireflallay.FireflallayEntityModel;
+import me.emafire003.dev.fireflallaymod.entities.frostfairy.FrostFairyEntityModel;
+import me.emafire003.dev.fireflallaymod.entities.frostfairy.FrostFairyEntityRenderer;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -14,7 +16,11 @@ import static me.emafire003.dev.fireflallaymod.FireflallayMod.MOD_ID;
 
 @Environment(EnvType.CLIENT)
 public class FireflallayClient implements ClientModInitializer {
+
     public static final EntityModelLayer MODEL_FIREFLALLAY_LAYER = new EntityModelLayer(new Identifier(MOD_ID, "fireflallay"), "main");
+    public static final EntityModelLayer MODEL_FROSTFAIRYENTITY_LAYER = new EntityModelLayer(new Identifier(MOD_ID, "frostfairy"), "main");
+
+
     @Override
     public void onInitializeClient() {
         EntityRendererRegistry.register(FireflallayMod.FIREFLALLAY, (context) -> {
@@ -22,5 +28,12 @@ public class FireflallayClient implements ClientModInitializer {
         });
 
         EntityModelLayerRegistry.registerModelLayer(MODEL_FIREFLALLAY_LAYER, FireflallayEntityModel::getTexturedModelData);
+
+        EntityRendererRegistry.register(FireflallayMod.FROSTFAIRY, (context) -> {
+            return new FrostFairyEntityRenderer(context);
+        });
+
+        EntityModelLayerRegistry.registerModelLayer(MODEL_FROSTFAIRYENTITY_LAYER, FrostFairyEntityModel::getTexturedModelData);
+
     }
 }

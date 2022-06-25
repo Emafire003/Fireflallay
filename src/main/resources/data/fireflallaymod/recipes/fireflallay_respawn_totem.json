@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fireflallaymod:fireflallay_skin"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    }
+  ],
+  "result": {
+    "item": "fireflallaymod:fireflallay_respawn_totem"
+  }
+}

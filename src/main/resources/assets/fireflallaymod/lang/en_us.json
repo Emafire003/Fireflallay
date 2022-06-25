@@ -1,6 +1,10 @@
 {
   "item.fireflallaymod.fireflallay_spawn_egg": "Fireflallay Spawn Egg",
+  "item.fireflallaymod.frostfairy_spawn_totem": "FrostFairy Spawn Totem",
   "item.fireflallaymod.allay_skin": "Allay Skin",
   "item.fireflallaymod.fireflallay_skin": "Fireflallay Skin",
-  "item.fireflallaymod.cold_allay_skin": "Cold Allay Skin"
+  "item.fireflallaymod.cold_allay_skin": "Cold Allay Skin",
+  "item.fireflallaymod.allay_respawn_totem": "Allay respawn Totem",
+  "item.fireflallaymod.fireflallay_respawn_totem": "Fireflallay respawn Totem",
+  "text.fireflallaymod.cant_spawn_here": "You shall not summon them here, but in more algid places!"
 }

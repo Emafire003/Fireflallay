@@ -1,5 +1,6 @@
-package me.emafire003.dev.fireflallaymod.entities;
+package me.emafire003.dev.fireflallaymod.entities.fireflallay;
 
+import me.emafire003.dev.fireflallaymod.entities.fireflallay.FireflallayEntity;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.model.*;
