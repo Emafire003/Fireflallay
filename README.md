@@ -30,8 +30,46 @@ Well no, it gets mostly digested and its skin is dropped upon being eaten. It ge
 ### Full demo video (1.0.0 version, now the drops are frog dependent)
 https://youtu.be/ZeO6jkkLl-U
 
-### Different drops video
+### Different drops video (1.1.0 version)
 https://youtu.be/tyOZNwxo9IA
+
+## Version 1.2.0+ - The FrostFairy and the respawn totems!
+
+With this new update when one of your flying friends gets eatean, it can be brought back to life, using the magic of the Illagers! (Granted YOU didn't EAT your FRIEND first!)
+
+To put it simply, just mix up a Totem of Undying with the with either Allay Skin or Fireflally Skin.
+ 
+
+### BuT wHat dO i dO wiTh tHE cOLd AllaY sKin?1!1!?
+(aka how to summon the FrostFairy!)
+
+First of all, you eat it. Then, well. Let's say things are a little more complicated here. There is a legend about one kind of allay which is very powerful and very rare, and has a tremendusly cold hearh.
+That's probably beacause it's made up of frost and dead skin of its kind probably. It's calld FrostFairy and you can craft a totem that will allow you to summon it as your aide. Kind of.
+
+You will need to gather all of the three types of Allay skin, (enjoy frog-finding), then a totem of undying, some emeralds and something musical and echoing from deeeeeeep underground. Oh and the coldest snowball you can find, that's gonna be the hearth of the creature.
+Combine all of this into a crafting table and obtain the mysterious FrostFairy Totem! You will be able to summon the little cold creature wherever and whenever you like! Except in warm areas. Which to a thing made up snow is limited to like biomes with snow, ice or void.
+
+Grate! No uh, i meant Snow barbeque! Wait what? Whatever, just wanted to say you now have spawned the FrostFairy!
+
+### The FrostFairy mob and its abilities!
+
+Being kind of the best allayish creature in exesistence, forging an allayance with it might prove useful. By giving it some specific items you will be able to get quite the buffs! Wonder what would happen if you give it a snowball? Maybe it will start shooting at something? With obsidian will it give you a permanent Resistance effect? Who knows!
+
+In my opinion, you should try to figure out which other items do what on your own, but if you want they're listed under here:
+<details>
+  <summary>Spoiler warning</summary>
+  
+    Snowball: It will start attacking mobs kinda like the Snowgolem
+    Obsidian: It will give a Resistance I effect if you remain in a 8-block radious
+    Sugar: It will give a Speed I effect if you remain in a 8-block radious
+    Rabbit Foot: It will give a Jump Boost I effect if you remain in a 8-block radious
+    Feather: It will give a Slow Falling I effect if you remain in a 8-block radious
+    Blue Ice: It will make you truly invisible (no particles) for 30 seconds, and consumes the item.
+
+  
+</details>
+
+Video demo coming soontm!
 
 ## Setup
 
