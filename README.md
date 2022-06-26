@@ -1,4 +1,7 @@
-# Fireflallay Mod
+# ![fireflallay_2(1)](https://user-images.githubusercontent.com/29462910/175810688-41966211-aefe-4abc-856d-c62e8e3a49c3.png) Fireflallay Mod ![frostfairy_1(1)](https://user-images.githubusercontent.com/29462910/175810686-ccf0ee79-3189-48df-b4b4-fa188f6ac14d.png)
+
+
+
 Did you not notice that mojang added the fireflies? No? Well, try giving a torch to an Allay and see what happens! 
 
 With this mod all you firefly lovers will be satisfied once and for all! Have you ever tried giving a torch to an allay? No? For real? Well, after installing this mod you should, because you will ignite the hidden fire of the little magical creature turning it into a Firefl-allay! (Eh eh I know a very orignal name)
@@ -69,7 +72,12 @@ In my opinion, you should try to figure out which other items do what on your ow
   
 </details>
 
-Video demo coming soontm!
+### Respawn totems video demo Version 1.2.0
+https://youtu.be/Xfpar1v7x-U
+
+### Frostfairy mob video demo Version 1.2.0
+https://youtu.be/PwKCOykn8X4
+
 
 ## Setup
 
