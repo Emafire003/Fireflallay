@@ -16,8 +16,6 @@ To get this mob you will need an Allay and a torch. Giving a torch to the Allay 
 
 ![ezgif-5-b7f0cbd471](https://user-images.githubusercontent.com/29462910/173579279-d7b0d585-f01f-499e-8676-33a8a93a1406.gif)
 
-[![bisecthosting](https://www.bisecthosting.com/partners/custom-banners/e9c85d2a-cafa-4e2f-98bf-4f62bd9e951c.png)](https://www.bisecthosting.com/LightDev)
-
 ## What do the frogs do when they see it?
 
 Shor answer: they get hungry.
